@@ -46,24 +46,48 @@ html{
 
 /* Navigation Bar: List Styling */
 
+
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
 }
 
-#navbar ul li{ 
+#navbar ul li{
     list-style: none;
     font-size: 1.3rem;
 }
 
+
 #navbar ul li a{
+    position: relative;
     color: white;
-    display: block;
-    
+    display: inline-block;
     border-radius: 20px;
     text-decoration: none;
+    overflow: hidden;
 }
 
+.topnav a{
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+    background: linear-gradient(to right, red, red 50%, white 50%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;
+}
+
+.topnav a:hover{
+    /* background-color: red; */
+    background-position: 0 100%;
+}
+
+.item{
+  padding: 0 25px;
+}
 
 /* Home Section */
 #home{
@@ -75,7 +99,7 @@ html{
     align-items: center;
 }
 
-#home::before{ 
+#home::before{
     content: "";
     position: absolute;
     background: url('../bg1.jpg') no-repeat center center/cover;
@@ -102,9 +126,9 @@ html{
 /* Services Section */
 #services{
     margin: 34px;
-    
+
 }
-#services .box{ 
+#services .box{
     border: 2px solid brown;
     padding: 34px;
     margin: 2px 55px;
@@ -113,7 +137,7 @@ html{
     margin-bottom: 20px;
 }
 
-#services .box img{ 
+#services .box img{
    height: 160px;
    margin: auto;
    display: block;
@@ -122,10 +146,10 @@ html{
 #services .box p{
     font-family: 'Bree Serif', serif;
 
-} 
+}
 
 /* Clients Section */
-#client-section{ 
+#client-section{
     position: relative;
 }
 
