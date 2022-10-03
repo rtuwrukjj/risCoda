@@ -59,7 +59,7 @@ html{
 #navbar ul li a{
     color: white;
     display: block;
-    
+    padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
 }
