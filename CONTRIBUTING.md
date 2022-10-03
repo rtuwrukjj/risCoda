@@ -3,7 +3,7 @@ Hi there! We're thrilled that you'd like to contribute to Hacktoberfest. Your he
 
 
 
-Submitting a pull request
+**Submitting a pull request**
 
 
 Clone the repository
@@ -26,7 +26,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 
 
-Follow the style guide.
+**Follow the style guide.**
 
 Write tests.
 
