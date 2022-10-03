@@ -205,6 +205,10 @@ html{
     border-radius: 10px;
     cursor:pointer;
 }
+.btn:hover {
+    background-color: #4CAF50; /* Green */
+    
+  }
 
 .center{
     text-align: center;
